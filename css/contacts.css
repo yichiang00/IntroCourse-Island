@@ -1,3 +1,57 @@
 .col {
   float: left;
+  background-color:darkred;
+  padding: 15px;
+  /*it means that padding-left,padding-top,padding-right,padding-bottom are 15px*/
+  margin: 0 5px 50px 5px;
+  /*margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 50px;*/
+/*
+  margin: 0 15px;*/
 }
+h1{
+  color: black;
+  font-style: oblique;
+  font-size: 75px;
+  font-family: monospace;
+  text-align: center;
+  border:5px solid red;
+}
+div h1{
+  color: black;
+}
+p{
+  font-size: 45px;
+}
+#emailparagraph{
+  color: orange;
+  font-size: 50px;
+  padding: 0 15px;
+}
+/*
+navgation styling*/
+.nav{
+  display: -webkit-flex;
+  /*-webkit-flex-direction: column;*/
+  
+}
+ul{
+  list-style-type: none;
+  font-size: 50px;
+  /*overflow: hidden;*/
+
+}
+ul li{
+padding:5px 20px;
+/*float:left;*/
+display: inline-block;
+background: green;
+}
+li a {
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

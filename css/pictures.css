@@ -1,0 +1,23 @@
+.nav{
+  display: -webkit-flex;
+  /*-webkit-flex-direction: column;*/
+}
+ul{
+  list-style-type: none;
+  font-size: 50px;
+  /*overflow: hidden;*/
+
+}
+ul li{
+padding:5px 20px;
+/*float:left;*/
+display: inline-block;
+background: green;
+}
+li a {
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
