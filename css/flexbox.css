@@ -27,3 +27,12 @@
   -webkit-align-self: stretch;
     /*-webkit-align-self: stretch; default and thus we did not need it*/
 }
+
+@media screen and (max-width: 999px) {
+.main{
+
+  -webkit-flex-direction:column;
+}
+
+
+}

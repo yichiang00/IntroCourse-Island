@@ -34,24 +34,34 @@ p{
   display: -webkit-flex;
   /*-webkit-flex-direction: column;*/
   -webkit-flex-direction: row;
-  /*-webkit-justify-content: space-between;
+  /*-webkit-justify-content: space-between;*/
+  -webkit-flex-wrap: wrap;
+  /*-webkit-flex-direction: row;*/
+  /*
     -webkit-justify-content: flex-end;*/
       -webkit-justify-content: center;
+}
+.nav li {
+  -webkit-flex-grow: 1;
+
+}
+.nav li:first-child{
+  margin-right: auto;
 }
 ul{
   list-style-type: none;
   font-size: 50px;
-  /*overflow: hidden;*/
+  overflow: hidden;
 
 }
 ul li{
 padding:5px 20px;
-/*float:left;*/
-display: inline-block;
+float:left;
+/*display: inline-block;*/
 background: green;
 }
 li a {
-    /*display: block;*/
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;

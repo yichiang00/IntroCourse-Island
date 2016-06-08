@@ -1,0 +1,17 @@
+.main {
+-webkit-column-count: 3;
+-webkit-column-width: 250px;
+/*-webkit-columns: 250px 3;*/
+
+-webkit-column-gap: 3em;
+-webkit-column-rule-width: 2px;
+-webkit-column-rule-style: dotted;
+-webkit-column-rule-color: green;
+/*
+-webkit-column-rule: 2px dotted green;*/
+}
+img {
+  display:block;
+  margin: 1.5em 0;
+  width: 400px;
+}
