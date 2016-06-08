@@ -10,6 +10,7 @@ h1{
   font-size: 150px;
 }
 h2{
+  color: cornsilk;
   font-size: 60px;
   font-style: oblique;
   font-family: monospace;
@@ -20,4 +21,12 @@ p{
   font-size: 50px;
   font-weight: bolder;
   font-style: normal;
+}
+.history{
+  background-color: teal;
+letter-spacing: 2px;
+line-height: 90px;
+}
+.address{
+  background-color: burlywood;
 }
