@@ -1,0 +1,29 @@
+
+.nav {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+}
+.main{
+  display: -webkit-flex;
+}
+.nav li {
+  -webkit-flex-grow: 1;
+}
+
+.col {
+  -webkit-flex: 1
+}
+
+.col-c {
+  -webkit-flex: 2;
+  /*-webkit-order:-3:*/
+}
+
+.col {
+  /*-webkit-align-self: center;
+  -webkit-align-self: flex-end;*/
+  -webkit-align-self: stretch;
+    /*-webkit-align-self: stretch; default and thus we did not need it*/
+}

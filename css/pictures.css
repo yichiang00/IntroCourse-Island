@@ -1,6 +1,11 @@
+/*Navation styling*/
 .nav{
   display: -webkit-flex;
   /*-webkit-flex-direction: column;*/
+  -webkit-flex-direction: row;
+  /*-webkit-justify-content: space-between;
+    -webkit-justify-content: flex-end;*/
+      -webkit-justify-content: center;
 }
 ul{
   list-style-type: none;
